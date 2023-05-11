@@ -1766,15 +1766,15 @@ button {
     .subscribe-column__title {
         font-size: 18px;
 }
+    .subscribe-column__input {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
 }
-@media (max-width: 420px) {
-        .subscribe-column__input,
-        .subscribe-column__button {
-            dispay: inline-flex;
-            width: 100%;
-            margin-bottom: 20px;
-            justify-content: center;
-        }
-}     
+    .subscribe-column__button {
+    width: 100%;
+    justify-content: center;
+}
+}
+
 
 
