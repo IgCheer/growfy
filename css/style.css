@@ -1035,7 +1035,7 @@ button {
 }
 
 .item-review__rating::before {
-    content: "в…в…в…в…в…";
+    content: "★★★★★";
     display: block;
 }
 .rating__items {
@@ -1065,7 +1065,7 @@ button {
     color: #d7c3a2;
 }
 .simple-rating__label::before {
-    content: "в…";
+    content: "★";
     display: block;
     transition: color 0.3s ease 0s;
 }
@@ -1078,7 +1078,7 @@ button {
 
 
 
-.simple-rating__label:hover,
+.simple-rating__label,
 .simple-rating__label:hover ~ .simple-rating__label,
 .simple-rating__label:checked ~ .simple-rating__label:hover {
     color: #eeca93;
